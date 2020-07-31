@@ -1,0 +1,9 @@
+# dependencies installed by npm
+**/node_modules
+
+# build artefacts
+/dist
+
+# Local Netlify folder
+.netlify
+

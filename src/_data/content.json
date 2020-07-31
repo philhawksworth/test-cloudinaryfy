@@ -1,0 +1,10 @@
+[
+  {
+    "title" : "some local title",
+    "image" : "/images/an-image.jpg"
+  },
+  {
+    "title" : "some remote image",
+    "image" : "https://trello-attachments.s3.amazonaws.com/5f0c47f4958da84a7b9e8b60/1200x885/73626f15000118f8f9a982658d660e42/trello-screenshot.png"
+  }
+]

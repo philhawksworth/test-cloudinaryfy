@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div class="tint">
+  <header>
+    <h1>Netlify Build Plugin - Trello List</h1>
+    <p class="subtitle">Get data for each list found in a public Trello board</p>
+  </header>
+  </div>
+  <main>
+
+  <h1>Where the magic happens</h1>
+
+  {% for item in content %}
+    <h2>{{ item.title }}</h2>
+    <img src="{{ item.image }}" alt="{{ item.title }}">
+  {% endfor %}
+
+  </main>
+  <footer>
+    <section>
+      Made with <img class="netliheart" title="love" src="/images/netliheart.svg" alt="love" width="1em"> by the <a href="https://netlify.com">Netlify</a> team. Explore <a href="https://github.com/philhawksworth/demo-netlify-plugin-trello-lists">the code</a> in GitHub. Follow <a href="https://twitter.com/netlify">@Netliify</a> on Twitter for regular updates</a>.
+    </section>
+  </footer>
+
+</body>
+</html>

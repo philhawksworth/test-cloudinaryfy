@@ -1,0 +1,7 @@
+name: netlify-plugin-plugin-name
+inputs:
+  - name: someAttribute
+    required: true
+  - name: someAttribute
+    default: 1000
+
