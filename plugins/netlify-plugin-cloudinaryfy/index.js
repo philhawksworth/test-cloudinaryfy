@@ -1,23 +1,7 @@
 const glob = require('glob');
 const { replaceImage } = require('./replaceImage.js');
 
-  /*
-/
- - /about/
-   - /images/
-     - myimage.jpg
-   - index.html
 
-   <img src="./images/myimage.jpg" alt="" />
-
-   const base = path.base(currentFilePath);
-   path.resolve(process.env.URL, base, relativeImagePath)
-   path.resolve('https://example.com', '/about/', './images/myimage.jpg');
-*/
-// upload docs: https://cloudinary.com/documentation/image_upload_api_reference
-
-
-// const imagePath = `https://res.cloudinary.com/${process.env.CLOUDINARY_CLOUD_NAME}/image/fetch/q_auto,f_auto/${imageURL}`
 
 module.exports = {
 
