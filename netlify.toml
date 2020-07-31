@@ -12,29 +12,9 @@
 
 # Config for the Netlify Build Plugin: netlify-plugin-add-instagram
 [[plugins]]
-  package = "./plugins/netlify-plugin-add-instagram"
+  package = "./plugins/netlify-plugin-cloudinaryfy"
 
   [plugins.inputs]
 
-    # Where to put the image files
-    imageFolder = "src/images/instagram"
+    cloudinaryCloudName = "jlengstorf"
 
-    # Also stash data about the images in a json file
-    dataFile = "src/_data/instagram.json"
-
-    # How many seconds should we cache the instagram feed for?
-    feedTTL = 10
-
-    # How many seconds should we cache each instagram image for?
-    # imageTTL = 1209600   # 2 weeks
-    imageTTL = 10   # 2 weeks
-
-
-    # Which of Instagrams image sizes should we fetch?
-    # t (thumbnail)
-    # m (medium)
-    # l (large)
-    imageSize = "m"
-
-    # Instagram username
-    username = "philhawksworth"
